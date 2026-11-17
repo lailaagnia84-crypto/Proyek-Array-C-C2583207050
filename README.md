@@ -59,6 +59,7 @@ Cara memakai program
 - Hasil yang diharapkan: muncul pesan berhasil, dan Teh Tarik tampil di daftar produk (jumlah produk menjadi 7/50).
 - Bukti:
 <img width="1366" height="768" alt="7d780828-ab50-4414-b716-36c71c6c6b64" src="https://github.com/user-attachments/assets/c0e0abbe-9033-4b57-9376-cfd0d0ad4135" />
+
 ## Skenario 2: Transaksi
 - Input/tindakan: pilih menu 4, beli 6 Es Teh (nomor 3) dan 4 Nasi Goreng (nomor 1), lalu pilih selesai.
 - Proses: program menghitung subtotal tiap produk (jumlah x harga), lalu menjumlahkannya menjadi total pembayaran.
