@@ -39,15 +39,15 @@ Perulangan pada array
 # Petunjuk Kompilasi dan Menjalankan Program
 Untuk mengompilasi dan menjalankan program ini, diperlukan compiler bahasa C seperti GCC. Sebagai alternatif, dapat digunakan aplikasi seperti Code::Blocks yang sudah menyertakan GCC di dalamnya. Selain itu, pastikan file main.c berada di satu folder agar proses kompilasi dapat berjalan dengan benar.
 1. Windows (MinGW/GCC)
-Buka Command Prompt atau PowerShell, lalu masuk ke folder proyek:
+- Buka Command Prompt atau PowerShell, lalu masuk ke folder proyek:
 cd path\ke\Proyek-Array-C-NIM
-Kompilasi:
+- Kompilasi:
 gcc main.c -o kantin.exe
-Jalankan:
+- Jalankan:
 kantin.exe
 2. Memakai Code::Blocks 
-Buka main.c lewat menu File → Open.
-Klik Build and Run (Code::Blocks: F9).
+- Buka main.c lewat menu File → Open.
+- Klik Build and Run (Code::Blocks: F9).
 Cara memakai program
 - Setelah program berjalan, menu utama tampil. Ketik angka menu (0-9), lalu tekan Enter.
 - Ikuti perintah yang muncul di layar, misalnya nomor produk dan jumlah beli.
@@ -56,7 +56,7 @@ Cara memakai program
 ## Skenario 1: Tambah Produk
 - Input/tindakan: pilih menu 2, lalu masukkan nama Teh Tarik, harga 7000, dan stok awal 15. Setelah itu pilih menu 1.
 - Proses: program memeriksa kapasitas, nama, harga, dan stok, lalu menyimpan data ke indeks berikutnya pada keempat array.
-- Hasil yang diharapkan: muncul pesan berhasil, dan Teh Botol tampil di daftar produk (jumlah produk menjadi 7/50).
+- Hasil yang diharapkan: muncul pesan berhasil, dan Teh Tarik tampil di daftar produk (jumlah produk menjadi 7/50).
 - Bukti:
 <img width="1366" height="768" alt="7d780828-ab50-4414-b716-36c71c6c6b64" src="https://github.com/user-attachments/assets/c0e0abbe-9033-4b57-9376-cfd0d0ad4135" />
 ## Skenario 2: Transaksi
